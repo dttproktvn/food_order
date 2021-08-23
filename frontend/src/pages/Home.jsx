@@ -3,8 +3,7 @@ import '../styles/style.css'
 class Home extends Component {
   render() {
     return(
-        <div>
-           
+        <div className="container-login100">          
             <p>Home</p> 
         </div>
      
