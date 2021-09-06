@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import LoginForm from '../components/loginComponents/LoginForm'
+import SignupForm from "../components/signupComponents/SignupForm"
 import '../styles/style.css'
 
-class Login extends Component {
+class Signup extends Component {
     componentDidMount() {
-        document.title = "login"
+        document.title = "signup"
     }
     render() {
         return(            
             <div className="container-login100">
-                <LoginForm/>             
+                <SignupForm/>
             </div>
         )
     }
 }
 
-export default Login;
+export default Signup;

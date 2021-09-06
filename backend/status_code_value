@@ -1,0 +1,5 @@
+1. api: /signup (method post)
+    {"code":200}: signup successfully
+    {"code":0}: server exception
+    {"code":1}: user existed
+    {"code":2}: fail / unknown 
